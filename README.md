@@ -58,3 +58,17 @@ Product name inside .product-title
 Seller name inside .product-merchant-info
 
 Rating values inside .averageCustomerReviews
+
+🛠️ Tech Stack
+
+HTML5
+
+CSS3 (Flexbox, Glassmorphism)
+
+📌 License
+
+This project is open source  
+.
+
+
+ 
