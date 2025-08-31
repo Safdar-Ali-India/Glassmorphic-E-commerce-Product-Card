@@ -1,7 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+    font-family: Montserrat;
+ 
+
   background-color: #001422;
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   overflow: hidden;
+  padding: 16px;
 }
 .circle {
   border-radius: 100%;
@@ -10,40 +22,62 @@ body {
 
 .circle-1 {
   background: radial-gradient(69.62% 69.62% at 50% 50%, #ea8bfa 0%, #7526f5 100%);
-  width: 138.33750915527344;
-  height: 138.33750915527344;
-  top: 76.61px;
-  left: 275.19px;
+  width: 138px;
+  height: 138px;
+  top: -49.61px;
+  left: -56.19px;
   opacity: 1;
 }
 .circle-2 {
   background: radial-gradient(63.62% 63.62% at 50% 50%, #ff00c7 0%, #bd95ff 0.01%, #a661ff 32.29%, #6100ff 98.59%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-  width: 329;
-  height: 329;
-  top: 70px;
-  left: 656px;
+  width: 329px;
+  height: 329px;
+  top: -56px;
+  left: 248px;
   angle: 0 deg;
   opacity: 1;
 }
 .circle-3 {
   background: radial-gradient(67.47% 67.47% at 50% 50%, #fed0ff 0%, #7f00ff 100%);
-  width: 230.5625;
-  height: 230.5625;
-  top: 522.86px;
-  left: 159.91px;
+  width: 230px;
+  height: 230px;
+  top: 471.86px;
+  left: -159.91px;
   angle: 0 deg;
   opacity: 1;
 }
 .card-container {
   position: relative;
 }
-.card { 
-  width: 405.34375;
-  height: 521.3687133789062; 
+.card {
+  width: 405px;
+  height: 600px;
+  padding: 16px;
   opacity: 1;
   border-radius: 11.16px;
   border-width: 0.74px;
   background: linear-gradient(151.53deg, rgba(255, 255, 255, 0.4) 6.01%, rgba(255, 255, 255, 0.1) 92.61%);
   backdrop-filter: blur(22.3125px);
   box-shadow: 0px 2.97px 17.85px -0.74px #00000033;
+}
+.card-content {
+  border-radius: 11.16px;
+  border-width: 0.74px;
+  border: 0.74px solid #ffffff4d;
+}
+.card-thumb-img img {
+  width: 100%;
+  border-top-left-radius: 11.16px;
+  border-top-right-radius: 11.16px;
+  max-height: 280px;
+  object-fit: cover;
+}
+.product-style-name{
+background: #F1C6443D;
+
+border-radius: 5.21px;
+
+}
+.product-style-name p{
+
 }
